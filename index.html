@@ -1,0 +1,402 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Website</title>
+    <meta name="description" content="">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/remodal.css">
+    <link rel="stylesheet" href="css/remodal-default-theme.css">
+    
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body class="site">
+
+<div class="site__wrapper">
+
+	<header class="site-header">
+		<div class="site-header__top">
+			<!------------------------------------- TOP HEADER MENU -------------------------------------------->
+			<div class="tmenu inner">
+				<div class="burger">
+					<span>меню</span>
+					<img src="img/hb.svg" alt="">
+				</div>
+				<ul class="left-menu">
+					<li><a href="#">Главная</a> <!-- <img src="img/lang-down.svg" alt=""> --></li>
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Туры</a></li>
+					<li><a href="#">Гостиницы</a></li>                                 
+				</ul>
+		<!------------------------------------- TOP LOGO -------------------------------------------->
+				<div class="logo">
+					<a href="#" class="home-logo">	
+						<div class="home-logo__name">RAILWAY TOURS</div>
+						<div class="home-logo__img">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53" height="73" viewBox="0 0 53 73">
+							  <image id="logo.svg" width="53" height="73" xlink:href="data:img/png;base64,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"/>
+							</svg>
+	
+						</div>
+					</a>
+					<div class="logo__bgshape"><img src="img/logo-bg.png" alt=""></div>
+					<div class="logo__tel">
+						<img src="img/tel.svg" alt="">	
+						<div><a href="tel:#">+99890 808 84 88</a></div>
+						<div><a href="tel:#">+99893 387 76 76</a></div>
+					</div>
+				</div>
+		<!------------------------------------- TOP LOGO END -------------------------------------------->
+				<ul class="right-menu">
+					<li ><a href="#">Услуги</a>
+						<ul>
+							<li><a href="#">Транспорт</a></li>
+							<li><a href="#">Встречи</a></li>
+							<li><a href="#">Проводы</a></li>
+							<li><a href="#">Зеленый каридор</a></li>
+							<li><a href="#">Вип зал</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Новости </a></li>
+					<li><a href="#">Галерея</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+				<div class="lang">
+					<ul>
+						<li><a href=""><span>RU</span><img src="img/lang-img.png" alt=""></a></li>
+						<li><a href=""><span>RU</span><img src="img/lang-img.png" alt=""></a></li>
+						<li><a href=""><span>RU</span><img src="img/lang-img.png" alt=""></a></li>
+						<li><a href=""><span>RU</span><img src="img/lang-img.png" alt=""></a></li>
+						<li><a href=""><span>RU</span><img src="img/lang-img.png" alt=""></a></li>
+						<!-- <li><span>RU</span><img src="img/lang-img.png" alt=""></li>
+						<li><span>RU</span><img src="img/lang-img.png" alt=""></li>
+						<li><span>RU</span><img src="img/lang-img.png" alt=""></li>
+						<li><span>RU</span><img src="img/lang-img.png" alt=""></li> -->
+					</ul>
+					
+					<a href="#"><img src="img/lang-down.svg" alt=""></a>
+				</div>
+			<!------------------------------------- TOP HEADER MENU END ----------------------------------------->
+		</div>
+		<div class="site-header__center">
+	
+			<!------------------------------------- TOP SLIDER  ----------------------------------------->
+			<div class="head-slider owl-carousel">
+				<div class="item">
+					<img src="img/s1.png" alt="">
+				</div>
+				<div class="item">
+					<img src="img/s1.png" alt="">
+				</div>
+			</div>
+			<!------------------------------------- TOP SLIDER END ----------------------------------------->
+	
+			<!------------------------------------- TOP BOOKING ----------------------------------------->
+			<div data-remodal-target="modal" class="booking">
+			 <span>заказать тур</span>
+			<img src="img/pen.svg" alt="">
+			</div>
+			<!------------------------------------- TOP BOOKING END ----------------------------------------->
+		</div>
+		<div class="site-header__bottom">
+			
+		</div>
+	</header> <!-- .site-header -->
+	
+	<div class="site-container">
+
+		<main class="site-container__main">
+			<div class="main-body inner">	
+				<!------------------------------------- MAIN LEFT SIDE -------------------------------------------->
+				<div class="lside">
+		
+				<!------------------------------------- TOUR MENU -------------------------------------------->
+					<div class="lside__tour">
+						<div>
+							<img src="img/burger.svg" alt="">
+							<span>туры</span>
+						</div>
+						<ul>
+							<li><a href="#">По Узбекистану</a></li>
+							<li><a href="#">По миру</a></li>
+						</ul>
+					</div>
+				<!------------------------------------- TOUR MENU END -------------------------------------------->
+		
+				<!------------------------------------- SERVICE MENU -------------------------------------------->
+					<div class="lside__tour ser">
+						<div>
+							<img src="img/burger.svg" alt="">
+							<span>услуги</span>
+						</div>
+						<ul>
+							<li><a href="#">Транспорт</a></li>
+							<li><a href="#">Встречи</a></li>
+							<li><a href="#">Проводы</a></li>
+							<li><a href="#">Зеленый каридор</a></li>
+							<li><a href="#">Вип зал</a></li>
+						</ul>
+					</div>
+				<!------------------------------------- SERVICE MENU END -------------------------------------------->
+		
+				<!------------------------------------- SEARCH FORM -------------------------------------------->
+				<form action="" class="lsearch">
+					<input type="search" placeholder="Поиск">
+					<input type="image" src="img/search.svg">
+				</form>
+				<!------------------------------------- SEARCH FORM END -------------------------------------------->
+		
+				<!------------------------------------- TOUR PLACE -------------------------------------------->
+				<div class="place">
+					<span>Туры</span>
+					<div class="place__tit">в самарканд</div>
+					<a  href="#" class="place__img">
+					<img src="img/t1.png" alt="">	
+					<div>Тур в самарканд</div>	
+					</a>
+				</div>
+				<!------------------------------------- TOUR PLACE END -------------------------------------------->
+				<div class="facebook">
+					<a href="#"><img src="img/fg.png" alt=""></a>
+				</div>
+				<div class="smm">
+					<div class="smm__tit">
+						<span>мы</span>
+						<div>в соц сетях</div>
+					</div>
+					<ul>
+						<li><a href="#" class="face"><img src="img/f.svg" alt=""></a></li>
+						<li><a href="#" class="ins"><img src="img/ins.svg" alt=""></a></li>
+						<li><a href="#" class="ok"><img src="img/ok.svg" alt=""></a></li>
+					</ul>
+				</div>
+				<div class="temp">
+					<ul>
+						<li><div><div>Tashkent</div> <span>20</span></div></li>
+						<li><div><div>Samarkand</div> <span>18</span></div></li>
+			 		</ul>
+				</div>
+				<div class="currency">
+					<div class="currency__tit">Курс валют</div>
+					<div class="currency__text">курс ЦБ</div>
+					<ul>
+						<li><div>USD</div><span>8271.27</span></li>
+						<li><div>EUR</div><span>9374.66</span></li>
+						<li><div>rub</div><span>121.79</span></li>
+						<li><div>yuan</div><span>1189.20</span></li>
+						<li><div>yen</div><span>72.67</span></li>
+					</ul>                
+				</div>
+				</div>
+				<!------------------------------------- MAIN LEFT SIDE END -------------------------------------------->
+		
+		
+				<!------------------------------------- MAIN RIGHT SIDE -------------------------------------------->
+				<div class="rside">
+		
+				<!------------------------------------- ABOUT -------------------------------------------->
+					<div class="rside__about">
+						<div class="rside__about-tit">О компании</div>
+						<span class="rside__about-tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						<div class="rside__about-img">
+							<img src="img/about.png" alt="">
+							<div>Туры по горам узбекистана</div>
+						</div>
+					</div>
+				<!------------------------------------- ABOUT END -------------------------------------------->
+		
+				<!------------------------------------- TOUR TYPE -------------------------------------------->
+					<div class="types">
+						<a href="#" class="titem">
+							<div class="titem__img">
+								<img src="img/ty1.png" alt="">
+							</div>
+							<div class="titem__body">
+								<div class="titem__body-tit">
+									Lorem ipsum dolor sit amet
+								</div>
+								<div class="titem__body-tex">
+									Экскурсионный тур
+								</div>
+								<div class="titem__body-price">
+									3 дня от <span>200</span> USD
+								</div>
+							</div>
+						</a>
+						<a href="#" class="titem">
+							<div class="titem__img">
+								<img src="img/ty2.png" alt="">
+							</div>
+							<div class="titem__body">
+								<div class="titem__body-tit">
+									magna aliqua
+								</div>
+								<div class="titem__body-tex">
+									Экскурсионный тур
+								</div>
+								<div class="titem__body-price">
+									3 дня от <span>260</span> USD
+								</div>
+								<div class="titem__body-gr">Групповой тур</div>
+							</div>
+						</a>
+						<a href="#" class="titem">
+							<div class="titem__img">
+								<div>Групповой тур</div>
+								<img src="img/ty3.png" alt="">
+							</div>
+							<div class="titem__body">
+								<div class="titem__body-tit">
+									Lorem ipsum dolor sit amet
+								</div>
+								<div class="titem__body-tex">
+									Экскурсионный тур
+								</div>
+								<div class="titem__body-price">
+									3 дня от <span>300</span> USD
+								</div>
+								<div class="titem__body-gr">Групповой тур</div>
+							</div>
+						</a>
+					</div>
+				<!------------------------------------- TOUR TYPE END -------------------------------------------->
+		
+				<!------------------------------------- NEWS -------------------------------------------->
+					<div class="news">
+						<div class="news__tit">Новости</div>
+						<div class="news__body">
+							<div class="ac">
+								<div class="ac__img">
+									<img src="img/n1.png" alt="">
+								</div>
+								<time>05.12.2018</time>
+								<a href="#"  class="ac__tit">
+									Lorem ipsum dolor sit amet
+								</a>
+								<div class="ac__text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
+								</div>
+							</div>
+							<div class="pas">
+								<div class="pas__body">
+									<div class="pas__body-img">
+										<img src="img/n2.png" alt="">
+									</div>
+									<time>05.12.2018</time>
+									<a href="#">sed do eiusmod tempor incididunt</a>
+								</div>
+								<div class="pas__body">
+									<div class="pas__body-img">
+										<img src="img/n2.png" alt="">
+									</div>
+									<time>05.12.2018</time>
+									<a href="#">magna aliqua</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				<!------------------------------------- NEWS END-------------------------------------------->
+		
+				<!------------------------------------- PARTNER-------------------------------------------->
+				<div class="par">
+					<div class="par__tit">Наши партнеры</div>
+					<div class="par__slide owl-carousel">
+						<a href="#">
+							<img src="img/p1.png" alt="">
+						</a>
+						<a href="#">
+							<img src="img/p2.png" alt="">
+						</a>
+						<a href="#">
+							<img src="img/p3.png" alt="">
+						</a>
+						<a href="#">
+							<img src="img/p4.png" alt="">
+						</a>
+						<a href="#">
+							<img src="img/p4.png" alt="">
+						</a>
+						<a href="#">
+							<img src="img/p4.png" alt="">
+						</a>
+					</div>
+				</div>
+				<!------------------------------------- PARTNER END-------------------------------------------->
+		
+				<!------------------------------------- MAIN RIGHT SIDE END -------------------------------------------->
+				</div>
+			</div>
+		</main>
+		<!-- .site-main -->
+		<div class="remodal" data-remodal-id="modal">
+			<!-- <button data-remodal-action="close" class="remodal-close"><img src="img/mclose.svg" alt=""></button> -->
+			<div class="remodal__tit">Заказать тур</div>
+			<form action="">
+				<div><input type="text" placeholder="ФИО"></div>
+				<div><input type="tel" placeholder="Телефон"></div>
+				<div><input type="mail" placeholder="Email"></div>
+				<div class="tarea"><textarea name="" id="" placeholder="Комментарии"></textarea></div>
+				<div><button>заказать тур</button></div>
+			</form>
+		</div>
+		<div class="mmenu">
+			
+		</div>
+		<div class="dark"></div>
+		<div class="closer"><img src="img/close.svg" alt=""></div>
+
+	</div>
+
+	<footer class="site-footer">
+		<div class="footer inner">
+			<div class="fbody">
+				<div class="fbody__menu">
+					<ul>
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Tуры</a></li>
+						<li><a href="#">Гостиницы</a></li>
+	 				</ul>
+	 				<ul>
+	 					<li><a href="#">Транспорт</a></li>
+	 					<li><a href="#">Новости</a></li>
+	 					<li><a href="#">Галерея</a></li>
+	 					<li><a href="#">Контакты</a></li>
+	 				</ul>
+				</div>
+				<div class="fbody__smm">
+					<div>мы в соц сетях</div>
+					<ul>
+						<li><a href="#" class="face"><img src="img/f.svg" alt=""></a></li>
+						<li><a href="#" class="ins"><img src="img/ins.svg" alt=""></a></li>
+						<li><a href="#" class="ok"><img src="img/ok.svg" alt=""></a></li>
+					</ul>
+				</div>	
+			</div>
+			<div class="fbottom">
+				<div class="fbottom__text">RAILWAY TOURS Все права защищены</div>
+				<div class="fbottom__copy">© Copyright 2019 - Web developed by <a href="">SOS Group</a></div>
+			</div> 
+		</div>
+		<div class="fbg"></div>
+	</footer>
+	<!-- .site-footer -->
+
+</div>
+
+<script src="js/plugins.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/remodal.js"></script>
+<!-- <script src="js/jquery.matchHeight.js"></script> -->
+<script src="js/main.js"></script>
+<!-- DESIGN & DEVELOPEMENT REDIMER.UZ -->
+</body>
+</html>

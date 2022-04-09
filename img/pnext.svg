@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #152daa;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="pnext.svg" class="cls-1" d="M699.047,2354.48l6.452,6.49,1.484-1.5-6.453-6.49Zm-0.032,11.02,6.5-6.53,1.5,1.51-6.5,6.54Z" transform="translate(-699 -2353)"/>
+</svg>

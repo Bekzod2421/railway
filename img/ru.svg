@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0211bb;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+      }
+    </style>
+  </defs>
+  <rect id="ru.svg" class="cls-1" x="2.5" y="2.5" width="16" height="12"/>
+</svg>
